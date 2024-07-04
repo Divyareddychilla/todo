@@ -1,0 +1,131 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0D0714;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1D1825;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px; 
+  box-sizing: border-box; 
+}
+
+.todo-input-container {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.todo-input-container input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 16px 10px;
+  border: 2px solid #3E1671;
+  border-radius: 10px;
+  height: 10px;
+  color: #ffffff;
+  background-color: #0D0714;
+  font-size: 16px;
+  font-weight: 400px !important;
+  outline: none;
+  width: 60%;
+}
+
+.plusdiv {
+  border-radius: 10px;
+  background-color: #9E78CF;
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.plusdiv svg {
+  cursor: pointer;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.task-header h6 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 400px;
+}
+
+.task-header button {
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #9E78CF;
+  background-color: #9E78CF;
+  color: #ffffff;
+}
+
+
+
+.todo_card {
+  display: flex;
+  flex-direction: column;
+  background-color: #15101C;
+  border-radius: 8px;
+  padding: 15px 15px;
+  margin-top: 16px;
+}
+
+.todo_content {
+  display: flex;
+  justify-content: space-between;
+  color: #9E78CF;
+  width: 100%;
+  width: -webkit-fill-available;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.todo_card p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.todo_icons {
+  display: flex;
+  gap: 10px;
+}
+
+.todo_icons svg {
+  cursor: pointer;
+}
+
+
+.completedtaskheading {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.completedtasks {
+  margin-top: 20px;
+}
+
+.completed_task_title {
+  color: #78CFB0;
+  text-decoration: line-through;
+}
